@@ -89,6 +89,17 @@
 
 // singHappyBirthday();
 
-const  sumOfThree(num1,num2,num3){
+// const sumOfThree(num1,num2,num3){
+//         return num1+num2+num3;
+// }
+// console.log(sumOfThree(3,4,5))
+// const isEven = (Number) => {
+//         return Number % 2 === 0;
 
-}
+// }
+// //  or    const isEven = Number => Number % 2 === 0;
+// console.log(isEven(5));
+
+
+// 05:24:50    min Done
+
