@@ -15,4 +15,3 @@ myFunc1(myFunc2); //apn function myFunc1 ko call kr rhe but myFun2 call ho rha S
 // that is called callback
 // pahle function 1 call then function 2 call
 
-// 6:13:35
