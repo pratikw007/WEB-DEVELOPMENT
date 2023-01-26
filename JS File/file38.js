@@ -18,3 +18,4 @@ const ans = myFunc();
 // }
 
 console.log(ans()); 
+// ans();
