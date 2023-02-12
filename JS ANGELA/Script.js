@@ -32,5 +32,11 @@
 // alert("Welcome!"+"Pratik") 
 
 
-var name ="Pratik";
-name.slice(0,1);
+// var name ="Pratik";
+// name.slice(0,1);
+
+ alert(prompt("Compose your tweet: ").slice(0,140));
+ 
+
+
+
