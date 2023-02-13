@@ -35,7 +35,7 @@
 // var name ="Pratik";
 // name.slice(0,1);
 
- alert(prompt("Compose your tweet: ").slice(0,140));
+//  alert(prompt("Compose your tweet: ").slice(0,140));
  
 
 
