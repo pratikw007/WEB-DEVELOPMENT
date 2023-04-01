@@ -258,8 +258,8 @@ let src = {
 // -----------------------------------------
 // Emptying an array 
 
-let numbers = [1,2,3,4,5,6,7];
-numbers2 = numbers;
+// let numbers = [1,2,3,4,5,6,7];
+// numbers2 = numbers;
 
 // ============
 // numbers=[];
@@ -316,7 +316,7 @@ numbers2 = numbers;
 // ----------------------------------- 
 // iterating an array 
 
-let arr = [10,20,30,40,50];
+// let arr = [10,20,30,40,50];
 // =====================For of loop    
 // for(let value of arr){
 //     console.log(value)
@@ -329,12 +329,206 @@ let arr = [10,20,30,40,50];
 // });
 
 // using arrow function =============
-arr.forEach(numbers=> console.log(numbers));
+// arr.forEach(numbers=> console.log(numbers));
 
 
+//------------------------
+// join of arraay
+// let numbers = [10,20,30,40,50];
+// const joined = numbers.join(',')
+
+// console.log(joined);    //10,20,30,40,50
+
+// spliting Of Array 
+
+// let message = 'This is my first message';
+// let parts = message.split(' ');
+
+// console.log(parts)
+
+// -----------Sorting 
+// let numbers = [4,3,1,5,2];
+
+// numbers.sort();
+
+// console.log(numbers);//[1, 2, 3, 4, 5]
+
+// numbers.reverse();
+
+// console.log(numbers); // [5, 4, 3, 2, 1]
+
+// -------------------------Filtering Arrays-----------------
+
+// let numbers = [1,2,-1,-4];
+
+// let Filtered = numbers.filter(function(values){
+//     return values >=0;
+// });
+
+// let Filtered = numbers.filter(values=> values >=0);
+
+// console.log(Filtered)
 
 
+// ----------------------Mapping of Array---------------
+// let numbers = [7,8,9,10]
 
+// // let items = numbers.map(function(value){
+// //     return 'Student_no' + value;
+// // });
+
+// let items = numbers.map(value => 'Student_no' + value);
+
+// console.log(items);
+
+// --------------------------Filter in objects--------------
+
+// let numbers = [1,2,-5,4,-9];
+
+// let Filtered = numbers.filter(value => value >=0); //return value >=0
+
+
+// let items = Filtered.map(function(num){
+//     // object creeation
+//    let obj = {value: num};
+//    return obj;
+    
+// });
+
+
+// let items = Filtered.map(function(num){
+//     // object creeation
+//    return {value: num};
+// });
+// ===============chaining ============
+
+// let items = numbers
+//                    .filter(value => value >=0) 
+//                    .map(num => {value: num});
+// console.log(Filtered);
+// console.log(items)
+
+
+// -------------------------Funcion in JavaScript-------------------
+
+// function run(){
+//     console.log("running")
+// }
+
+// run(); //function call
+
+// =============================
+// Hoistig :- It is the function declaration at the top of file 
+
+// run(); //function call
+// function run(){
+//     console.log("running")
+// }
+
+// // ===============================================
+// //Named   function assignment 
+// let stand = function walk(){
+//     console.log("Walking")
+// }
+// stand();
+
+// // ===============================================
+// //Anonymous function assignment -function name is not Defined
+// let stand2 = function(){
+//     console.log("talking")
+// }
+// stand2();
+// =================================
+// function sum(a,b){
+//     return a+b;
+// }
+
+// console.log(sum(3,4));
+// =================================
+// Arguments
+// function sum(a,b){
+//     let total = 0;
+//     for (let value of arguments) {
+//         total += value;
+//         return total;
+//     }
+
+//     let ans = sum(1,2,3,4);
+//     console.log(ans)
+// }
+// ----------------------------------
+// Rest Operator
+// function sum(...args){ // args is array 
+// function sum(a,b,...args){ //args ke baat koi parameter pass nhi kr sakte boss 
+//     console.log(args);
+// }
+
+// sum(1,2,3,4,5,6) //  [1, 2, 3, 4, 5, 6]
+
+
+// -------------------------------------
+// default parameter
+//  console.log("Hello")
+// function intrest(p,r=5.5,y=2){// 
+//     return p*r*y/100;
+// }
+
+// let ans =intrest(1000,);
+
+// console.log(ans)
+
+// ------------------------------------------
+// Getter--> access the property
+//   Setters --> change or mutate properties
+
+// let person = {
+//     fName: 'Love',
+//     lName: 'Babber',
+//     get fullName(){
+//         return`${person.fName} ${person.lName}`;
+//     },
+//     set fullName(value){
+//         if(typeof value !== String ){
+//             throw new ErrorEvent("You have not sent a string");
+//         }
+//         let parts =value.split(' ');
+//         this.fName = parts[0];
+//         this.lName = parts[1];
+//     }
+// };
+
+// try {
+//     person.fullName(1);
+// } catch (e) {
+// alert(e);
+//     // alert('Your are sent a number in full Name');
+// }
+// console.log(person.fullName);
+
+// --------------------------------
+// Scope 
+
+// {
+//     var b='Hello';
+//     let a =5;
+//     console.log(a)
+// }
+
+// console.log(b)
+// ===========
+// for(var i = 0;i<10;i++){
+
+// }
+// console.log(i)//10
+// =================
+function a(){
+    const ab =7;
+}
+function b(){
+    const ab =7
+    console.log(ab)
+}
+console.log(b());
 
 
 
