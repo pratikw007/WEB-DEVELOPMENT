@@ -521,20 +521,30 @@ let src = {
 // }
 // console.log(i)//10
 // =================
-function a(){
-    const ab =7;
-}
-function b(){
-    const ab =7
-    console.log(ab)
-}
-console.log(b());
+// function a(){
+//     const ab =7;
+// }
+// function b(){
+//     const ab =7
+//     console.log(ab)
+// }
+// console.log(b());
+//  -----------------------------------------
+
+// Reducing Array 
+// let arr = [1,2,3,4,5]
+// let total = 0;
+
+// for (let value of a) 
+//     total +=value;
+//     console.log(total);
 
 
+// let totalSum = arr.reduce((accumulator,currentValue)=>accumulator,currentValue,0);
+// console.log("sum")
+// console.log(totalSum)
 
-
-
-
+// --------------------------__________--------------------------------
 
 
 
